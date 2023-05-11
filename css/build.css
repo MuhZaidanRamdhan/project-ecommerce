@@ -1,0 +1,490 @@
+:root {
+  --primary: #ededed;
+  --bg: rgb(8, 27, 41);
+  --bgN: #f2f6fc;
+}
+
+* {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+/* Navbar Start */
+#container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+#container-detail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+#container #contain-nav #drop .img-acc {
+  border-radius: 50px;
+  margin-right: 75px;
+  width: 40px;
+  height: 40px;
+}
+
+#container-detail #contain-nav #drop .img-acc {
+  border-radius: 50px;
+  margin-right: 75px;
+  width: 40px;
+  height: 40px;
+}
+
+#container-detail #contain-nav {
+  background-color: var(--bg);
+  padding: 1.7rem 3rem;
+}
+
+#container #contain-nav {
+  padding: 1.7rem 3rem;
+}
+
+#container #contain-nav #linked:hover {
+  color: red;
+}
+#container-detail #contain-nav #linked:hover {
+  color: red;
+}
+
+#container #contain-nav #login {
+  background-color: var(--primary);
+  color: var(--bg);
+}
+#container-detail #contain-nav #login {
+  background-color: var(--primary);
+  color: var(--bg);
+}
+
+#container #contain-nav #linked,
+#container #contain-nav #sign {
+  color: var(--primary);
+  font-size: 1rem;
+}
+#container-detail #contain-nav #linked,
+#container-detail #contain-nav #sign {
+  color: var(--primary);
+  font-size: 1rem;
+}
+
+#container #contain-nav #login,
+#container #contain-nav #sign {
+  border: 1px solid var(--primary);
+  border-radius: 4px;
+  margin-right: 0.2rem;
+}
+
+#container-detail #contain-nav #login,
+#container-detail #contain-nav #sign {
+  border: 1px solid var(--primary);
+  border-radius: 4px;
+  margin-right: 0.2rem;
+}
+
+#container #contain-nav #sign:hover {
+  background-color: var(--primary);
+  color: var(--bg);
+}
+#container-detail #contain-nav #sign:hover {
+  background-color: var(--primary);
+  color: var(--bg);
+}
+
+#container #contain-nav #nav-logo {
+  color: var(--primary);
+  font-family: Viga;
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+#container-detail #contain-nav #nav-logo {
+  color: var(--primary);
+  font-family: Viga;
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+#container #contain-nav button {
+  color: white;
+  background-color: white;
+}
+#container-detail #contain-nav button {
+  color: white;
+  background-color: white;
+}
+#container #contain-nav button #humburger {
+  color: white;
+  background-color: white;
+}
+#container-detail #contain-nav button #humburger {
+  color: white;
+  background-color: white;
+}
+
+/*Navbar End */
+
+/*Main hero Start */
+
+.section-hero {
+  margin-top: -140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)),
+    url(../assets/peralatan-dapur.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: left;
+  height: 100vh;
+}
+
+.section-hero .content {
+  width: 50%;
+  font-weight: 4000;
+  text-align: center;
+  color: var(--primary);
+}
+
+.section-hero aside img {
+  object-fit: cover;
+}
+
+.section-hero .content .home-title {
+  margin-bottom: 25px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.9);
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  font-weight: bold;
+}
+.section-hero .content .home-title span {
+  font-weight: bold;
+  color: #d21312;
+}
+.section-hero .content .home-paragraf {
+  margin-bottom: 300px;
+}
+
+.section-hero .content .cta {
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 1rem;
+  background-color: blue;
+  padding: 0.5rem;
+  color: var(--primary);
+}
+
+.section-hero .content .cta:hover {
+  background-color: blue;
+  color: var(--primary);
+}
+
+/* Main hero End */
+
+/* Section About Start */
+.about-card {
+  margin-left: 3rem;
+}
+
+#about-items {
+  font-weight: bold;
+  color: var(--bg);
+  margin: 4.4rem 0;
+  padding-top: 10px;
+  text-align: center;
+}
+#card-bg {
+  background-color: var(--bgN);
+  border: none;
+}
+.sec-flex1 {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.sec-flex2 {
+  margin-right: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+#title-about1 {
+  text-align: left;
+  font-size: 2rem;
+  padding-left: 2rem;
+}
+#title-about2 {
+  text-align: right;
+  font-size: 2rem;
+  padding-right: 2rem;
+}
+
+#about-para1 {
+  text-align: justify;
+  font-size: 1.2rem;
+  padding-left: 2rem;
+}
+#about-para2 {
+  text-align: justify;
+  font-size: 1.2rem;
+  padding-right: 2rem;
+}
+#img-about {
+  height: 250px;
+  width: 480px;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Section About End */
+
+/* Section Produk Start */
+
+#product-items {
+  font-weight: bold;
+  color: var(--bg);
+  margin-top: 150px;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.product-paragraf {
+  text-align: center;
+  color: grey;
+}
+.section-card {
+  text-align: center;
+  margin: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.section-card .card {
+  margin: 1.5rem;
+  height: 450px;
+  box-shadow: 8px 5px 10px rgb(155, 155, 155);
+}
+
+.section-card .card #but-detail:hover {
+  background-color: var(--bg);
+  color: var(--primary);
+}
+
+/* Section Produk End */
+
+.detail-card {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#card-in {
+  background-color: var(--bgN);
+  border: none;
+}
+
+#title-sku {
+  padding-top: 2rem;
+}
+#title-name {
+  font-size: 3rem;
+}
+
+#title-price {
+  font-size: 2rem;
+}
+
+.f-flex {
+  display: flex;
+}
+
+#input-numb {
+  text-align: center;
+  margin-top: 1.5rem;
+  margin-right: 1rem;
+}
+
+.submit {
+  border-radius: 3px;
+  margin-top: 1.5rem;
+  font-size: 1rem;
+  background-color: var(--bg);
+  color: var(--primary);
+  padding: 0.4rem;
+  width: 200px;
+  height: 50px;
+  padding-top: 0;
+}
+
+#footer-marg {
+  margin-top: 200px;
+}
+
+/* Section Detail Start */
+
+/* Section Owner Start */
+.section-owner {
+  margin: 200px 0;
+}
+
+.section-owner .qoutes-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section-owner figure img {
+  width: 200px;
+  margin-bottom: 20px;
+}
+.section-owner figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.section-owner h5 {
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  text-align: center;
+}
+
+.section-owner .qoutes {
+  font-style: italic;
+  color: gray;
+  margin-bottom: 50px;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.section-owner span {
+  font-style: italic;
+}
+
+/* Section Owner end */
+@media (max-width: 768px) {
+  .section-hero {
+    margin-top: 0;
+  }
+  #container #contain-nav {
+    background-color: var(--bg);
+  }
+  #container #contain-nav #login,
+  #container #contain-nav #sign {
+    border: none;
+    color: var(--primary);
+    background-color: var(--bg);
+  }
+
+  #container #contain-nav #drop #drop-a {
+    padding: 0;
+  }
+  #container-detail #contain-nav #drop #drop-a {
+    padding: 0;
+  }
+
+  #container #contain-nav #drop .img-acc {
+    margin: 0;
+    padding: 0;
+  }
+
+  #container #contain-nav #sign:hover {
+    background-color: var(--bg);
+    color: var(--primary);
+  }
+
+  #footer-marg {
+    margin-top: 400px;
+  }
+
+  .section-card {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  #product-items {
+    margin-top: 2rem;
+    padding-top: 30px;
+    text-align: center;
+  }
+  .product-paragraf {
+    text-align: center;
+    font-size: 0.8rem;
+  }
+  .about-card {
+    margin-left: 0;
+  }
+  #about-para1,
+  #about-para2 {
+    text-align: center;
+    padding: 0;
+    font-size: 1rem;
+  }
+  #title-about1,
+  #title-about2 {
+    font-size: 2rem;
+    text-align: center;
+    padding: 0;
+    font-weight: bold;
+  }
+
+  .sec-flex2 {
+    margin-left: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-direction: column-reverse;
+  }
+
+  #img-about {
+    display: none;
+  }
+  .section-hero .content {
+    padding: 0;
+    margin: 1rem;
+  }
+
+  #product-items {
+    color: var(--bg);
+    margin-top: 370px;
+    padding-top: 10px;
+    text-align: center;
+  }
+
+  .section-owner .qoutes {
+    font-size: 16px;
+  }
+}
+/* @media (max-width: 450px) {
+  html {
+      font-size: 55%;
+      margin: 0;
+      padding: 0;
+  }
+
+  .section-hero aside img{
+     margin:0;
+     display:
+  }
+} */
