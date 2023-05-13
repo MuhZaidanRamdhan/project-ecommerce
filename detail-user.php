@@ -86,7 +86,7 @@ $row = $st->fetch();
                             <p id="title-stock">Stok Tersedia :
                                 <?= $row['stock'] ?>
                             </p>
-                            <form action="#" class="f-flex">
+                            <form action="starter-user.php" class="f-flex">
                                 <input type="number" class="form-control" id="input-numb" placeholder=""
                                     aria-label="pesan" aria-describedby="basic-addon1" min="1">
                                 <button class="submit">Pesan Sekarang</button>

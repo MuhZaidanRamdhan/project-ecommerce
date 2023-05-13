@@ -393,6 +393,12 @@ html {
     color: var(--primary);
     background-color: var(--bg);
   }
+  #container-detail #contain-nav #login,
+  #container-detail #contain-nav #sign {
+    border: none;
+    color: var(--primary);
+    background-color: var(--bg);
+  }
 
   #container #contain-nav #drop #drop-a {
     padding: 0;
