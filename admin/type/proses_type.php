@@ -17,7 +17,7 @@ if($_proses == "Simpan"){
 }else if($_proses == "Update"){
     // Jika Update, tambahkan ID ke array dan buat SQL UPDATE
     $ar_data[]=$_POST['id'];
-    $sql = "UPDATE product SET name=? WHERE id=?";
+    $sql = "UPDATE product_type SET name=? WHERE id=?";
 }
 
 // Jika ada perintah SQL, jalankan perintah prepare dan execute dengan array data

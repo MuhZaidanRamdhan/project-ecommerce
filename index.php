@@ -45,7 +45,7 @@ $rs = $dbh->query($sql);
             <a class="nav-link" href="login.php" id="login">Login</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="admin/register.php" id="sign">Sign Up</a>
+            <a class="nav-link" href="register.php" id="sign">Sign Up</a>
           </li>
         </ul>
       </div>
